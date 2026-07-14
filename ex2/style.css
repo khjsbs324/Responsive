@@ -28,3 +28,10 @@
 .h-ln4 {
     left: 1440px;
 }
+.box1 {
+    width: 300px; height: 300px;
+    position: fixed;
+    background-color: #a7a7a7;
+    left: 50%;
+    transform: translateX(-50%);
+}
