@@ -28,10 +28,36 @@
 .h-ln4 {
     left: 1440px;
 }
+.h-ln::after {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.h-ln1::after{content: "360";}
+.h-ln2::after{content: "760";}
+.h-ln3::after{content: "1080";}
+.h-ln4::after{content: "1440";}
 .box1 {
     width: 300px; height: 300px;
     position: fixed;
     background-color: #a7a7a7;
-    left: 50%;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+}
+.box2 {
+    position: absolute;
+    width: 61px; height: 20px;
+    background-color: green;
+    top: 26px; left: 1440px;
     transform: translateX(-50%);
+}
+.box2:hover {
+    transform: translateX(0);
+}
+
+@media screen and (max-width: 1080px) {
+    .box2 {
+        left: 1080px;
+    }
 }
