@@ -1,0 +1,16 @@
+/* Component */
+.trsi03{transition: 0.3s;}
+.trsi05{transition: 0.5s;}
+.trsi07{transition: 0.7s;}
+
+header {
+    height: 100px;
+    background-color: #333;
+}
+main {
+    height: 100vh;
+}
+footer {
+    height: 500px;
+    background-color: #333;
+}
