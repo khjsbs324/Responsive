@@ -1,3 +1,13 @@
+/* [1081부터 상자 레이아웃 -> 가로] 1081 ~  */
+
+/* 320 ~ 1080 */
+@media screen and (max-width: 1080) {
+    .s1-cd3-con {
+        /* 1080까지 상자 레이아웃 -> 세로 */
+        flex-direction: column;
+    }
+}
+
 /* (실무)360사이즈에서 가장 많이 디자인함 */
 /* (포트폴리오)화면이 길어야 예뻐서 320*720 */
 /* 0 ~ 320 */
@@ -5,6 +15,10 @@
     header {
         height: 80px;
         background-color: #8d8d8d;
+    }
+    .s1-cd3-con {
+        /* 320까지 상자 레이아웃 -> 가로 */
+        flex-direction: row;
     }
     footer {
         height: 210px;
