@@ -1,3 +1,6 @@
 body {
-    background-color: var(--color-background-tertiary);
+    background-color: var(--color-background-danger);
+}
+div {
+    
 }

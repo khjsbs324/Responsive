@@ -1,3 +1,9 @@
 :root {
     --color-background-tertiary: #faf9f5;
+    --color-background-danger: #B53333;
+    --color-background-dark-info:#253E5F;
+    /* --color-background-danger:#DD5353; */
+
+    --color-background-warning:#F6EEDF;
+    --color-background-success:#E9F1DC;
 }
