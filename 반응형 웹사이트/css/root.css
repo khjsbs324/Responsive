@@ -150,6 +150,8 @@
 
 
 /* ------일반 컴포넌트------ */
+/* ----전역---- */
+button {cursor: pointer;}
 /* ----header---- */
 .logo {
     font-size: var(--text-logo);

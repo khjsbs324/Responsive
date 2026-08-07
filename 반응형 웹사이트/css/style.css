@@ -23,7 +23,29 @@ header {
 .menu1 {
     border: 1px solid red;
 }
+.menu1 ul{
+	border: 1px solid red;
+	display: flex; height: 100%;
+}
+.menu1 li{
+	border: 1px solid red;
+	display: flex; align-items: center;
+}
+.menu1 a {
+	padding-top: var(--num8);
+	padding-bottom: var(--num8);
+}
 .user-menu-box {
     border: 1px solid red;
     align-self: center;
+		display: flex;
+}
+.se-box {
+	display: flex;
+	align-items: center;
+}
+.user-ex {
+	display: flex;
+	align-items: center;
+	gap: var(--num8);
 }
