@@ -141,6 +141,10 @@
   font-size: var(--icon-FS-small);
   font-weight: var(--icon-W-small);
 }
+.icon-new {
+  background: linear-gradient(135deg, #8b7cf6, #5942d7);
+  width: ;
+}
 
 /* ----지역 아이콘---- */
 .circle-icon-XS {
