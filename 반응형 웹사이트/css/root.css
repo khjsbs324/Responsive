@@ -73,6 +73,7 @@
   --color-default-dark: var(--color-def);
 
   /* padding */
+  --padding-XSS: var(--num2) var(--num6);
   --padding-XS: var(--num10) var(--num16);
 
   /* 아이콘 */
@@ -80,6 +81,11 @@
   --icon-W-XS: var(--font-weight300);
   --icon-FS-small: var(--font-text-size24);
   --icon-W-small: var(--font-weight400);
+
+  /* 라운디드(모서리 둥글) */
+  --bd-radius2: var(--num2);
+  --bd-radius4: var(--num4);
+  --bd-radius6: var(--num6);
 }
 
 
@@ -143,7 +149,12 @@
 }
 .icon-new {
   background: linear-gradient(135deg, #8b7cf6, #5942d7);
-  width: ;
+  padding: var(--padding-XSS);
+  color: var(--color-default-light);
+  font-size: var(--text-XS);
+  font-weight: var(--textW-large);
+  border-radius: var(--bd-radius4);
+  position: absolute;
 }
 
 /* ----지역 아이콘---- */
