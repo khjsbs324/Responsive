@@ -10,13 +10,13 @@
 /* 전체 브라우저에 들어가는 XS글자 */
 .XS-text-cpn {
   font-size: var(--text-XS);
-  font-weight: var(--textW-small);
+  font-weight: var(--textW-SMALL);
 }
 
 /* ------ 지역 ------ */
-/* 상단바에 들어가는 small */
-.small-text-header {
-  font-size: var(--text-small);
-  font-weight: var(--textW-medium);
+/* 상단바에 들어가는 SMALL */
+.SMALL-text-header {
+  font-size: var(--text-SMALL);
+  font-weight: var(--textW-MEDIUM);
   color: var(--color-default-dark);
 }

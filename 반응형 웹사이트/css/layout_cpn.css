@@ -2,8 +2,8 @@
 /* ----전역 그리드---- */
 .con {
   margin: var(--G-center);
-	padding-left: var(--padding-grid-large);
-	padding-right: var(--padding-grid-large);
+	padding-left: var(--padding-grid-LARGE);
+	padding-right: var(--padding-grid-LARGE);
 }
 
 
