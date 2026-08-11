@@ -16,8 +16,9 @@ header .con {
     align-self: center;
 }
 
-.user-box {
+.user-box, .user-box-1240{
     display: flex;
+		border: 1px solid red;
 }
 .menu1 ul{
 	display: flex; height: 100%;
@@ -43,6 +44,7 @@ header .con {
 .user-menu-box {
     align-self: center;
 		display: flex;
+		border: 1px solid red;
 }
 .se-box {
 	display: flex;
